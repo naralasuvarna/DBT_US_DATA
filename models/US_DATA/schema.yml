@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: DEVELOPER_DB
+    description: <markdown_string>
+    database: DEVELOPER_DB
+    schema: ANJALI_SCHEMA
+    tables:
+      - name: US_ACCIDENTS_DATA_RAW_STAGE
+      - name: STAGE_US_DATA
